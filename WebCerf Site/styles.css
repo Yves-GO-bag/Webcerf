@@ -12,7 +12,11 @@ html {
     font-style: normal;
     color: white;
     background-color: rgb(29, 45, 78);
+    scroll-behavior: smooth;
+}
 
+a {
+    text-decoration: none;
 }
 
 /*HEADER - DESKTOP NAV SECTION*/
@@ -276,7 +280,7 @@ html {
 
 /*WEB BUILD BUTTON is defined in the ff section below*/
 /*DESKTOP NAV BUTTON*/
-/*WEB BUIL BUTTON is within the section above*/
+/*WEB BUILD BUTTON is within the section above*/
 
 /*ARTICLE SECTION*/
 
@@ -621,6 +625,30 @@ textarea:focus {
     list-style: none;
 }
 
+.footer-btn {
+       color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(to right, #00C9A7 0%, #4CA8E4 50%, #1B6DC0 100%); 
+        background-size: 200% auto;
+        box-shadow: 0 4px 15px rgba(0, 201, 167, 0.4);
+        transition: all 0.5s ease-in-out;
+        transform: scale(1);
+        height: 60px;
+        width: 80%;
+        border-radius: 15px;
+        cursor: pointer;
+        border: none;
+        font-size: 1.3rem;
+        margin: 0.5rem 0;
+}
+.footer-nav-links ul,
+.footer-web-services ul,
+.footer-contact-info ul{
+    line-height: 2rem;
+}
+
 #footer-logo-container {
     display: flex;
     justify-content: space-between;
@@ -630,8 +658,13 @@ textarea:focus {
 
 .logo-box img {
 height: 4rem;
-border-radius: 100px;
+border-radius: 15px;
+box-shadow: 0 4px 100px rgba(0, 201, 167, 0.4);
+}
 
+.footer-contact-info img {
+    height: 1rem;
+    padding-right: 0.3rem;
 }
 
 .socmed-box {

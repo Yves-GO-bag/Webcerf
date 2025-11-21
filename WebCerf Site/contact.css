@@ -1,0 +1,27 @@
+#hero-contact-section  {
+    height: 40vh;
+    width: 100%;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 125, 125, 0.5);
+}
+
+.contact-hero {
+    width: 60%;
+}
+
+.contact-hero span {
+    background-image: linear-gradient(to right, #00C9A7 0%, #4CA8E4 50%, #1B6DC0 100%); 
+    border-radius: 15px;
+    padding: 0 1rem;
+}
+
+.contact-hero h4 {
+    font-size: 2rem;
+    background-image: linear-gradient(to right, #00C9A7 0%, #4CA8E4 50%, #1B6DC0 100%); 
+    border-radius: 15px;
+    padding: 0 1.5rem;
+    width: fit-content;
+}
