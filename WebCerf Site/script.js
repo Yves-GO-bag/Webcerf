@@ -1,3 +1,44 @@
+//------INDEX HTML JS CODES-----// 
+
+//CONTACT US BUTTON (HEADER NAV BTN)
+document.getElementById('js-header-nav-btn')
+        .addEventListener('click', () => {
+    window.location.href = "contact.html";
+});
+
+//HERO GET STARTED NOW BUTTON 
+document.getElementById('js-hero-btn')
+        .addEventListener('click', () => {
+    window.location.href= "contact.html";
+})
+
+//WEB BUILD SECTION BUTTON 
+document.querySelectorAll('.web-build-btn').forEach(button => {
+    button.addEventListener('click', () => {
+        window.location.href= "contact.html";
+    });
+});
+
+// ARTICLE BUTTON 
+document.getElementById('js-article-btn')
+        .addEventListener('click', () => {
+            window.location.href= "#contact-section";
+        });
+
+// CONTACT SECTION CALL TEL BUTTON 
+document.getElementById('js-callBtn') 
+        .addEventListener('click', () => {
+            window.location.href= "tel:+17026832850";
+        });
+
+// CONTACT SECTION EMAIL BUTTON
+document.getElementById('js-emailBtn') 
+        .addEventListener('click', () => {
+            window.location.href= "mailto:Yvesinnevada360@gmail.com";
+        });
+
+
+//------INDEX HTML JS CODES-----// 
 
 //FORM CODES (start)
 const form = document.getElementById('form');

@@ -1,0 +1,569 @@
+/* ===== Max-Width Only Breakpoints ===== */
+
+/* Large Desktops down to 1200px */
+@media (max-width: 1200px) {
+    
+    /*DESKTOP NAVIGATION*/
+
+    #hamburger-nav {
+    display: none;
+}
+
+/*HEADER - DESKTOP NAV SECTION*/
+
+#desktop-nav {
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.logo-container img {
+    height: 78px;
+    padding-right: 1rem;
+}
+
+.desktop-nav-links {
+    gap: 3rem;
+}
+
+/*HERO SECTION*/
+
+#hero-section {
+    padding: 1rem;
+}
+
+#hero-section h1 {
+    font-size: 4.2rem;
+}
+
+#hero-section p {
+    font-size: 1.4rem;
+}
+
+.hero-btn,
+.web-build-btn {
+    height: 80px;
+    width: 400px;
+}
+
+/*WEB BUILD SECTION*/
+
+#web-build-section {
+    height: fit-content;
+    padding: 2rem 0;
+}
+
+#web-build-section h1,
+.web-build-text h2 {
+    font-size: 3rem;
+}
+
+#web-bild-section h2 {
+    font-size: 2rem;
+}
+
+.web-build-img img {
+    object-fit: cover;
+}
+
+
+.web-build-text p {
+    font-size: 1.1rem;
+}
+
+.web-build-container,
+.web-build-container2 {
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.web-build-img img {
+    object-fit: cover;
+}
+
+.web-build-btn {
+    width: 100%;
+}
+
+/*ARTICLE SECTION*/
+
+    #article-section {
+        height: fit-content;
+        padding: 6rem 0;
+    }
+
+  #article-section .article-title {
+        font-size: 3rem;
+    }
+
+    .article-item1 {
+        font-size: 1.7rem;
+    }
+
+    /*BACKGROUND SECTION*/
+ 
+    .stats-container {
+        flex-wrap: wrap;
+    }
+
+    .stats-box {
+        width: 50%;
+    }
+
+    /*CONTACT SECTION*/
+
+    #contact-section {
+        justify-content: center;
+        gap: 1rem;
+        Padding: 0 2rem;
+        height: fit-content;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .form-group {
+        width: 100%;
+    }
+
+    #form .contact-btn {
+        width: 100%;
+    }
+
+    /*FOOTER SECTION*/
+
+    #footer-logo-container {
+   
+        flex-wrap: wrap;
+    }
+
+    #copy-container {
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+/* Desktops & Tablets down to 992px */
+@media (max-width: 992px) {
+        
+    /*HAMBURGER NAVIGATION*/
+
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+    display: flex;
+}
+
+/*HERO SECTION*/
+
+#hero-section h1 {
+    font-size: 3.3rem;
+}
+
+#hero-section p {
+    font-size: 1.1rem;
+}
+
+.wrapper {
+    margin: 4rem 0;
+}
+
+/*WEB BUILD SECTION*/
+
+#web-build-section h1 {
+    font-size: 2.7rem;
+}
+
+.web-build-container,
+.web-build-container2 {
+    flex-direction: column-reverse;
+}
+
+.web-build-text {
+    width: 100%;
+}
+
+.web-build-btn {
+    width: 50%;
+}
+
+
+/*ARTICLE SECTION*/
+
+    #article-section {
+        height: fit-content;
+        padding: 5rem 0;
+    }
+
+  #article-section .article-title {
+        font-size: 2.3rem;
+    }
+
+    .article-item1 {
+        font-size: 1.2rem;
+    }
+
+
+/*CONTACT SECTION*/
+
+    #contact-section {
+        flex-wrap: wrap;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .form-group {
+        width: 100%;
+    }
+
+    #form .contact-btn {
+        width: 100%;
+    }
+
+    .form-container {
+        height: fit-content;
+        padding: 3rem 0;
+    }
+
+    .map-container {
+        padding-top: 3rem;
+    }
+
+    .call-btn-container {
+        align-items: center;
+    }
+
+    .call-btn-container .contact-title {
+        font-size: 3rem;
+    }
+
+
+    /*FOOTER SECTION*/
+
+    #footer-logo-container,
+    .footer-anterior-nav {
+        flex-wrap: wrap;
+    }
+
+    .footer-anterior-nav {
+        padding: 1rem;
+        column-gap: 2rem;
+    }
+
+    #copy-container {
+        text-align: center;
+        width: 100%;
+    }
+
+
+}
+
+/* Tablets down to 768px */
+@media (max-width: 768px) {
+
+     /*HAMBURGER NAVIGATION*/
+
+     .hamburger-container,
+     #hamburger-nav {
+        height: fit-content;
+     }
+
+     .hamburger-menu {
+        padding: 0 1rem;
+     }
+
+     /*HERO SECTION*/
+
+#hero-section {
+    text-align: center;
+    height: fit-content;
+    Padding: 4rem 1rem;
+}
+
+#hero-section h1 {
+    font-size: 3rem;
+}
+
+#hero-section p {
+    font-size: 1.3rem;
+}
+
+.wrapper {
+    margin: 7rem 0;
+}
+
+.item img {
+    height: 7rem;
+}
+
+/*WEB BUILD SECTION*/
+
+#web-build-section {
+    text-align: center;
+}
+
+#web-build-section h1 {
+    font-size: 3rem;
+}
+
+.web-build-btn {
+    width: 100%;
+}
+
+.web-build-text h2 {
+    font-size: 2.5rem;
+}
+
+/*ARTICLE SECTION*/
+
+    #article-section {
+        height: fit-content;
+        padding: 3rem 1rem;
+        text-align: center;
+    }
+
+  #article-section .article-title {
+        font-size: 2.7rem;
+    }
+
+    .article-item1 {
+        font-size: 1.2rem;
+    }
+
+
+    /*BACKGROUND SECTION*/
+ 
+    .stats-container {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .stats-box {
+        width: 100%;
+    }
+
+    /*CONTACT SECTION*/
+
+    #contact-section {
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+
+    #form {
+        width: 100%;
+    }
+
+    .call-btn-container {
+        width: 100%;
+    }
+
+    .call-btn-container .contact-title {
+        padding-top: 6rem;
+        font-size: 2.6rem;
+    }
+
+    .map-container {
+        padding-top: 0;
+    }
+
+    /*FOOTER SECTION*/
+
+    #footer-logo-container,
+    .footer-anterior-nav {
+        justify-content: flex-start;
+    }
+
+    .footer-anterior-nav {
+        column-gap: 3rem;
+        row-gap: 1rem;
+    }
+
+    #copy-container {
+        text-align: center;
+        width: 100%;
+    }
+
+    #footer-logo-container {
+        padding: 1rem;
+        justify-content: space-between;
+    }
+
+    .socmed-box {
+        gap: 1rem;
+    }
+}
+
+/* Large Phones down to 576px */
+@media (max-width: 576px) {
+   
+    /*HERO SECTION*/
+
+#hero-section {
+    gap: 1rem;
+    height: 55vh;
+}
+
+.hero-btn {
+    margin-top: 0;
+}
+
+/*WEB BUILD SECTION*/
+
+#web-build-section h1 {
+    font-size: 2.5rem;
+}
+
+#web-build-section h2 {
+    font-size: 1.4rem;
+}
+
+
+.web-build-text h2 {
+    font-size: 2rem !important;
+}
+
+/*ARTICLE SECTION*/
+
+#article-section .article-title {
+        font-size: 2.3rem;
+    }
+    
+    .article-item1 {
+        font-size: 1rem;
+    }
+
+    .article-box2 {
+    width: 100%;
+    gap: 1rem;
+    }
+
+    .article-btn {
+        font-size: 1.2rem;
+        width: 50%;
+    }
+
+       /*CONTACT SECTION*/
+
+    .call-btn-container .contact-title {
+        font-size: 2.1rem;
+    }
+
+    /*FOOTER SECTION*/
+
+    .socmed-box {
+        gap: 0.5rem;
+    }
+
+
+
+}
+
+/* Small Phones down to 480px */
+@media (max-width: 480px) {
+
+    /*NAVIGATION SECTION*/
+
+    .hamburger-logo img {
+        height: 3rem;
+    }
+
+    .hamburger-menu {
+        padding: 0;
+    }
+
+    /*HERO SECTION*/
+
+    #hero-section h1 {
+        font-size: 2.2rem;
+    }
+
+    #hero-section p {
+        font-size: 1.2rem;
+    }
+
+    #hero-section {
+        height: fit-content;
+    }
+
+    .hero-btn {
+        width: 100%;
+        height: 5rem;
+    }
+
+    /*WEB BUILD SECTION*/
+
+    .web-build-img img {
+        height: 40vh;
+    }
+
+
+/*ARTICLE SECTION*/
+
+    #article-section .article-title {
+        font-size: 2.1rem;
+        line-height: 3.5rem;
+    }
+    
+    .article-item1 {
+        font-size: 1rem;
+    }
+
+    .article-btn {
+        height: 3.5rem;
+    }
+
+    .article-box2 {
+    width: 100%;
+    gap: 1rem;
+    }
+
+    .article-btn {
+        font-size: 1.2rem;
+        width: 50%;
+    }
+
+    
+       /*CONTACT SECTION*/
+
+    .call-btn-container .contact-title {
+        text-align: center;
+    }
+
+
+    .call-btn {
+        width: 100%;
+    }
+
+    .call-btn-container .email-btn {
+       width: 100% !important;
+       margin-top: 0;
+    }
+
+    .email-btn .call-txt h2 {
+        font-size: 0.9rem;
+    }
+
+    #form {
+        padding: 2rem 1rem;
+    }
+
+    /*FOOTER SECTION*/
+
+    #footer-logo-container {
+        justify-content: center;
+    }
+
+    .socmed-box {
+        padding: 1rem;
+    }
+
+    .socmed-box img {
+        height: 1.8rem;
+    }
+
+}

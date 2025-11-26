@@ -1,0 +1,330 @@
+/* ===== Max-Width Only Breakpoints ===== */
+
+/* Large Desktops down to 1200px */
+@media (max-width: 1200px) {
+    /*DESKTOP NAVIGATION*/
+
+    #hamburger-nav {
+    display: none;
+}
+
+/*HEADER - DESKTOP NAV SECTION*/
+
+#desktop-nav {
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.logo-container img {
+    height: 78px;
+    padding-right: 1rem;
+}
+
+.desktop-nav-links {
+    gap: 3rem;
+}
+
+/*HERO SECTION*/
+
+.services-hero {
+    width: 85%;
+}
+
+.services-hero h2 {
+    font-size: 4rem;
+}
+
+  #hero-services-section {
+    height: fit-content;
+    padding: 3rem;
+}
+
+/*WEB COMPANY SECTiON*/
+
+/*COMPANY PROCESS SECTION*/
+
+#process-section {
+height: fit-content;
+padding: 4rem 2rem;
+flex-direction: column-reverse;
+}
+
+.process-img h2 {
+    font-size: 4rem;
+}
+
+.process-text h2 {
+    font-size: 2rem;
+}
+
+.process-img p,
+.process-text p {
+    font-size: 1.3rem;
+}
+
+.company-container {
+    width: 100%;
+}
+
+.process-text {
+    padding: 3rem 0;
+    width: 90%;
+}
+
+
+
+
+/*FOOTER SECTION*/
+
+    #footer-logo-container {
+   
+        flex-wrap: wrap;
+    }
+
+    #copy-container {
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+/* Desktops & Tablets down to 992px */
+@media (max-width: 992px) {
+    
+     /*HAMBURGER NAVIGATION*/
+
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+    display: flex;
+}
+
+/*HERO SECTION*/
+
+#hero-services-section {
+    padding: 2rem;
+}
+
+#hero-services-section h2 {
+    font-size: 5rem;
+}
+
+/*WEB COMPANY SECTION*/
+
+.company-container {
+    flex-direction: column-reverse;
+}
+
+.company-text {
+    width: 100%;
+}
+
+.company-container2 .company-img {
+    width: 100%;
+}
+
+/*WEB-BG*/
+
+.bg-content {
+    display: none;
+}
+
+/*COMPANY PROCESS SECTION*/
+
+.process-img h2 {
+    font-size: 3rem;
+}
+
+/*FOOTER SECTION*/
+
+    #footer-logo-container,
+    .footer-anterior-nav {
+        flex-wrap: wrap;
+    }
+
+    .footer-anterior-nav {
+        padding: 1rem;
+        column-gap: 2rem;
+    }
+
+    #copy-container {
+        text-align: center;
+        width: 100%;
+    }
+
+
+}
+
+/* Tablets down to 768px */
+@media (max-width: 768px) {
+   /*HAMBURGER NAVIGATION*/
+
+     .hamburger-container,
+     #hamburger-nav {
+        height: fit-content;
+     }
+
+     .hamburger-menu {
+        padding: 1rem;
+     }
+
+     /*HERO SECTION*/
+
+     #hero-services-section {
+        padding: 2rem;
+     }
+
+     .services-hero h2 {
+        font-size: 3rem;
+     }
+
+     .services-hero h4 {
+        font-size: 1.8rem;
+     }
+
+     /*WEB COMPANY SECTION*/
+
+     .company-container {
+        gap: 1rem;
+     }
+
+     .company-text h2 {
+        font-size: 1.8rem;
+     }
+
+     /*PROCESS SECTION*/
+
+     #process-section h2 {
+        font-size: 2.2rem;
+     }
+
+     .process-img {
+        text-align: center;
+     }
+
+     #process-section p {
+        font-size: 1.1rem;
+     }
+
+     .process-text h2 {
+        font-size: 1.5rem !important;
+     }
+
+
+      /*FOOTER SECTION*/
+
+    #footer-logo-container,
+    .footer-anterior-nav {
+        justify-content: flex-start;
+    }
+
+    .footer-anterior-nav {
+        column-gap: 3rem;
+        row-gap: 1rem;
+    }
+
+    #copy-container {
+        text-align: center;
+        width: 100%;
+    }
+
+    #footer-logo-container {
+        padding: 1rem;
+        justify-content: space-between;
+    }
+
+    .socmed-box {
+        gap: 1rem 0.5rem;
+    }
+}
+
+/* Large Phones down to 576px */
+@media (max-width: 576px) {
+    /*HERO SECTION*/
+
+         #hero-services-section {
+        padding: 1rem 0;
+     }
+
+     /*COMPANY SECTION*/
+
+     .company-container,
+     .company-container2 {
+        padding: 1rem;
+     }
+
+     /*PROCESS SECTION*/
+
+     #process-section {
+        padding: 3rem 1rem;
+     }
+
+    /*FOOTER SECTION*/
+
+    .socmed-box {
+        gap: 0.5rem;
+    }
+
+}
+
+/* Small Phones down to 480px */
+@media (max-width: 480px) {
+     /*NAVIGATION SECTION*/
+
+    .hamburger-logo img {
+        height: 3rem;
+    }
+
+    .hamburger-menu {
+        padding: 0;
+    }
+
+    /*HERO SECTION*/
+
+    #hero-services-section h2 {
+        font-size: 2.5rem;
+     }
+
+     #hero-services-section h4 {
+        font-size: 1.3rem;
+     }
+
+     /*COMPANY SECTION*/
+
+     #company-section {
+        padding-top: 0;
+     }
+
+     #company-section img {
+        height: 30rem;
+     }
+
+     .company-btn {
+        width: 100%;
+     }
+
+
+    /*PROCESS SECTION*/
+
+    .process-img img,
+    .process-btn {
+        width: 100%;
+    }
+
+        /*FOOTER SECTION*/
+
+    #footer-logo-container {
+        justify-content: center;
+    }
+
+    .socmed-box {
+        padding: 1rem;
+    }
+
+    .socmed-box img {
+        height: 1.8rem;
+    }
+}
+
