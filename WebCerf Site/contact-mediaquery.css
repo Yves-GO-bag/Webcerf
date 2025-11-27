@@ -1,0 +1,267 @@
+/* ===== Max-Width Only Breakpoints ===== */
+
+/* Large Desktops down to 1200px */
+
+@media (max-width: 1200px) {
+    
+    /*DESKTOP NAV SECTION*/
+
+    #desktop-nav {
+        gap: 1rem;
+    }
+
+    .logo-container img {
+        padding-right: 1rem;       
+    }
+
+    .desktop-nav-links {
+        gap: 2.5rem;
+    }
+
+    /*NAMBURGER NAV*/
+
+    #hamburger-nav {
+        display: none;
+    }
+
+    /*HERO SECTION*/
+
+    .contact-hero {
+        width: 90%;
+    }
+
+    /*CONTACT SECTION*/
+
+    #contact-section {
+        gap: 1.5rem;
+        padding: 0 2rem;
+    }
+
+    .map-container {
+        padding: 0 0;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    iframe {
+        width: 100%;
+        height: 417px;
+    }
+
+    .call-btn-container {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .call-btn-container .contact-title {
+        font-size: 2rem;
+    }
+
+    .map-container {
+        justify-content: center;
+        height: 100%;
+    }
+
+    .email-btn, 
+    .call-btn {
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    /*HEADER HAMBURGER SECTION*/
+
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+    #hamburger-nav, 
+    .hamburger-container {
+        height: fit-content;
+    }
+
+    /*HERO SECTION*/
+
+    .contact-hero h2 {
+        font-size: 4.3rem;
+    }
+    
+    /*CONTACT SECTION*/
+
+    #contact-section {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .call-btn-container .contact-title {
+        font-size: 3.2rem;
+        padding-top: 3rem;
+    }
+
+    .form-container {
+        height: fit-content;
+        padding: 2rem 0 5rem 0;
+    }
+
+    .call-btn-container {
+        align-items: flex-start;
+    }
+
+
+    /*FOOTER SECTION*/
+
+    .footer-anterior-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 1rem;
+        gap: 3rem;
+        padding-right: 12rem;
+        height: fit-content;
+    }
+
+    #footer-logo-container {
+        flex-wrap: wrap;
+    }
+
+    #copy-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .socmed-box img {
+        height: 25px;
+    }
+
+}
+
+/* Tablets down to 768px */
+@media (max-width: 768px) {
+
+    /*HERO SECTION*/
+
+    .contact-hero h2 {
+        font-size: 3.3rem;
+    }
+
+    /*CONTACT SECTION*/
+
+    .call-btn-container .contact-title  {
+        font-size: 2.4rem;
+    }
+
+   
+    /*FOOTER SECTION*/
+
+    #footer-logo-container {
+        padding: 1rem 2rem;
+    }
+
+    #copy-container {
+        text-align: center;
+    }
+
+
+}
+
+/* Large Phones down to 576px */
+@media (max-width: 576px) {
+
+    /*HAMBURGER SECTION*/
+
+    .hamburger-menu {
+        padding: 0 1rem;
+    }
+
+    /*CONTACT SECTION*/
+
+    .call-btn-container {
+        text-align: center;
+    }
+
+    .call-btn-container .contact-title  {
+    font-size: 2.1rem;
+    }
+
+    #contact-section {
+        padding: 1rem;
+    }
+
+    .call-btn-container {
+        width: 100%;
+        align-items: center;
+    }
+        
+    .call-btn,
+    .email-btn {
+        width: 100% !important;
+    }
+
+    /*FOOTER SECTION*/
+
+    .socmed-box {
+        gap: 0.5rem;
+    }
+
+}
+
+/* Small Phones down to 480px */
+@media (max-width: 480px) {
+    
+       /*HAMBURGER SECTION*/
+
+       #hamburger-nav {
+        padding: 1rem;
+       }
+    
+       .hamburger-logo img {
+        height: 3rem !important;
+    }
+
+    
+    .hamburger-logo img {
+        height: 3.5rem;
+    }
+
+    .hamburger-menu {
+        padding: 0;
+    }
+
+
+    /*HERO SECTION*/
+
+    #hero-contact-section {
+        height: fit-content;
+        padding: 2rem 0;
+    }
+
+   .contact-hero h2 {
+        font-size: 2.8rem;
+    }
+
+    /*CONTACT SECTION*/
+
+    .email-btn .call-img {
+        height: 2rem;
+    }
+
+    .email-btn .call-txt h2 {
+        font-size: 1rem;
+    }
+
+    /*FORM*/
+
+    #contactForm {
+        padding: 1rem;
+    }
+
+}
+

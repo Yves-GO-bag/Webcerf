@@ -1,0 +1,416 @@
+/*HERO SECTION*/
+
+#hero-services-section  {
+    height: 40vh;
+    width: 100%;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 125, 125, 0.5);
+}
+
+.services-hero {
+    width: 60%;
+}
+
+.services-hero span {
+    background-image: linear-gradient(to right, #00C9A7 0%, #4CA8E4 50%, #1B6DC0 100%); 
+    border-radius: 15px;
+    padding: 0 1rem;
+}
+
+.services-hero h4 {
+    font-size: 2rem;
+    background-image: linear-gradient(to right, #00C9A7 0%, #4CA8E4 50%, #1B6DC0 100%); 
+    border-radius: 15px;
+    padding: 0 1.5rem;
+    width: fit-content;
+}
+
+/*SERVICES SECTION*/
+
+#services-cards-container {
+    height: fit-content;
+    padding: 5rem 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.service-card { 
+    border-radius: 25px;
+    background-color: gray;
+    height: 30vh;
+    width: 300px;
+    padding: 1rem;
+}
+
+
+/*SERVICE CARDS*/
+
+/* CARD 1 */
+.service-card-1 {
+    background-image: linear-gradient(to right, #FF6B6B 0%, #FFD93D 50%, #FF8C42 100%);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.service-card-1 i {
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+.service-card-1 h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.service-card-1 p {
+    color: #2E2E2E;
+    font-weight: 400;
+}
+
+/* CARD 2 */
+.service-card-2 {
+    background-image: linear-gradient(to right, #00B4DB 0%, #0083B0 50%, #00E0FF 100%);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.service-card-2 i {
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+.service-card-2 h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.service-card-2 p {
+    color: #E0F7FF;
+    font-weight: 400;
+}
+
+/* CARD 3 */
+.service-card-3 {
+    background-image: linear-gradient(to right, #8E2DE2 0%, #4A00E0 50%, #6A0DAD 100%);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.service-card-3 i {
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+.service-card-3 h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.service-card-3 p {
+    color: #FFD700;
+    font-weight: 400;
+}
+
+/* CARD 4 */
+.service-card-4 {
+    background-image: linear-gradient(to right, #56ab2f 0%, #a8e063 50%, #4caf50 100%);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.service-card-4 i {
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+.service-card-4 h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.service-card-4 p {
+    color: #1B3E20;
+    font-weight: 400;
+}
+
+/* CARD 5 */
+.service-card-5 {
+    background-image: linear-gradient(to right, #FF5F6D 0%, #FFC371 50%, #5B86E5 100%);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.service-card-5 i {
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+.service-card-5 h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.service-card-5 p {
+    color: #2E2E2E;
+    font-weight: 400;
+}
+
+.service-card img {
+    height: 2.5rem;
+}
+
+.service-card {
+    padding: 1rem;
+}
+
+/* CARD HOVER EFFECT */
+#services-cards-container .service-card-1,
+#services-cards-container .service-card-2,
+#services-cards-container .service-card-3,
+#services-cards-container .service-card-4,
+#services-cards-container .service-card-5 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#services-cards-container .service-card-1:hover,
+#services-cards-container .service-card-2:hover,
+#services-cards-container .service-card-3:hover,
+#services-cards-container .service-card-4:hover,
+#services-cards-container .service-card-5:hover {
+    transform: scale(1.5);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3); /* subtle depth */
+    cursor: pointer;
+}
+
+/*ANIMATION CSS - SCALE SCROLL - START*/
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+/*2nd section*/
+.service-card-1,
+.service-card-2, .service-card-3,
+.service-card-4, .service-card-5,
+/*3rd section*/
+.web-services-container, .web-services-container2,
+.web-services-container3, .web-services-container4,
+.web-services-container5 {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+
+/*ANIMATION CSS - SCALE SCROLL - END*/
+
+
+/*SERVICES SECTION*/
+
+/*WEB BUILD SECTION*/
+
+#web-services-section {
+    height: fit-content;
+    width: 100%;
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#web-services-section h1,
+#web-services-section h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+#web-services-section h1,
+.web-services-text h2 {
+    font-size: 3.5rem;
+}
+
+#web-services-section h2 {
+    font-size: 2rem;
+}
+
+
+.web-services-text p {
+    font-size: 1.2rem;
+}
+
+.web-services-container,
+.web-services-container2,
+.web-services-container3,
+.web-services-container4,
+.web-services-container5 {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    height: 50%;
+    margin-top: 4rem;
+
+}
+
+.web-services-container2,
+.web-services-container4 {
+    flex-direction: row-reverse;
+}
+
+
+
+.web-services-text {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.web-services-img img {
+    height: 45vh;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 6px 80px rgba(0, 201, 167, 0.4);
+    animation: zoomIn 0.6s ease forwards;
+    object-fit: cover;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+/*SERVICES SECTION BUTTON*/
+
+.web-services-btn {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #00C9A7 0%, #4CA8E4 50%, #1B6DC0 100%); 
+    background-size: 200% auto;
+    box-shadow: 0 4px 15px rgba(0, 201, 167, 0.4);
+    transition: all 0.5s ease-in-out;
+    transform: scale(1);
+    height: 60px;
+    width: 350px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.web-services-btn:hover {
+    background-position: right center;
+    box-shadow: 0 6px 25px rgba(0, 201, 167, 0.7);
+    transform: scale(1.05);
+
+}
+
+/*SERVICES IMAGE BOX SHADOW COLOR*/
+/*&*/
+/*SERVICES BUTTON HOVER EFFECT*/
+
+.box-shadow1 img,
+.services-btn1:hover {
+    box-shadow: 0 8px 400px rgba(255, 107, 107, 0.4),
+                0 4px 300px rgba(255, 217, 61, 0.3);
+}
+
+.box-shadow2 img,
+.services-btn2:hover {
+    box-shadow: 0 8px 400px rgba(0, 180, 219, 0.35),
+                0 4px 300px rgba(0, 224, 255, 0.3);
+}
+
+.box-shadow3 img,
+.services-btn3:hover  {
+      box-shadow: 0 8px 400px rgba(142, 45, 226, 0.4),
+                0 4px 300px rgba(74, 0, 224, 0.3);
+}
+
+.box-shadow4 img,
+.services-btn4:hover {
+         box-shadow: 0 8px 400px rgba(86, 171, 47, 0.35),
+                0 4px 300px rgba(76, 175, 80, 0.3);
+}
+
+.box-shadow5 img,
+.services-btn5:hover {
+        box-shadow: 0 8px 400px rgba(255, 95, 109, 0.35),
+                0 4px 300px rgba(91, 134, 229, 0.3);
+}
+
+
+/*SERVICES BUTTON COLORS*/
+
+.services-btn1 {
+    background-image: linear-gradient(to right, #FF6B6B 0%, #FFD93D 50%, #FF8C42 100%);
+
+}
+
+.services-btn2 {
+    background-image: linear-gradient(to right, #00B4DB 0%, #0083B0 50%, #00E0FF 100%);
+
+}
+
+.services-btn3 {
+    background-image: linear-gradient(to right, #8E2DE2 0%, #4A00E0 50%, #6A0DAD 100%);
+
+}
+
+.services-btn4 {
+    background-image: linear-gradient(to right, #56ab2f 0%, #a8e063 50%, #4caf50 100%);
+
+}
+
+.services-btn5 {
+    background-image: linear-gradient(to right, #FF5F6D 0%, #FFC371 50%, #5B86E5 100%);
+
+}
+
+/*SERVICES BUTTON HOVER EFFECT*/
+
+
+
