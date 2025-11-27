@@ -1,0 +1,275 @@
+/* ===== Max-Width Only Breakpoints ===== */
+
+/* Large Desktops down to 1200px */
+@media (max-width: 1200px) {
+    
+
+/*DESKTOP NAVIGATION*/
+
+    #hamburger-nav {
+    display: none;
+}
+
+/*HEADER - DESKTOP NAV SECTION*/
+
+#desktop-nav {
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.logo-container img {
+    height: 78px;
+    padding-right: 1rem;
+}
+
+.desktop-nav-links {
+    gap: 3rem;
+}
+
+/*HERO SECTION*/
+
+.services-hero {
+    width: 85%;
+}
+
+.services-hero h2 {
+    font-size: 4rem;
+}
+
+  #hero-services-section {
+    height: fit-content;
+    padding: 3rem;
+}
+
+/*WEB SERVICES SECTION*/
+
+.web-services-container,
+.web-services-container2,
+.web-services-container3,
+.web-services-container4,
+.web-services-container5 {
+    flex-direction: column-reverse;
+}
+
+.web-services-text {
+    width: 100%;
+}
+
+.web-services-img img,
+.web-services-img {
+    width: 100%;
+}
+
+
+
+/*FOOTER SECTION*/
+
+    #footer-logo-container {
+   
+        flex-wrap: wrap;
+    }
+
+    #copy-container {
+        text-align: center;
+        width: 100%;
+    }
+
+
+
+}
+
+/* Desktops & Tablets down to 992px */
+@media (max-width: 992px) {
+    
+     /*HAMBURGER NAVIGATION*/
+
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+    display: flex;
+}
+
+/*WEB BUILD SECTION*/
+
+    /*FOOTER SECTION*/
+
+    #footer-logo-container,
+    .footer-anterior-nav {
+        flex-wrap: wrap;
+    }
+
+    .footer-anterior-nav {
+        padding: 1rem;
+        column-gap: 2rem;
+    }
+
+    #copy-container {
+        text-align: center;
+        width: 100%;
+    }
+
+
+}
+
+/* Tablets down to 768px */
+@media (max-width: 768px) {
+  
+         /*HAMBURGER NAVIGATION*/
+
+     .hamburger-container,
+     #hamburger-nav {
+        height: fit-content;
+     }
+
+     .hamburger-menu {
+        padding: 1rem;
+     }
+
+     /*HERO SECTION*/
+
+     #hero-services-section {
+        padding: 2rem;
+     }
+
+     .services-hero h2 {
+        font-size: 3rem;
+     }
+
+     .services-hero h4 {
+        font-size: 1.8rem;
+     }
+
+     /*WEB SERVICES SECTION*/
+
+     #services-cards-container {
+        padding: 1rem;
+     }
+
+    .service-card {
+        width: 100%;
+        padding: 2rem 5rem;
+     }
+
+     .service-card img {
+        height: 4rem;
+     }
+
+     .service-card h2 {
+        font-size: 2rem;
+     }
+
+     .service-card p {
+        font-size: 1.2rem;
+     }
+
+         /*FOOTER SECTION*/
+
+    #footer-logo-container,
+    .footer-anterior-nav {
+        justify-content: flex-start;
+    }
+
+    .footer-anterior-nav {
+        column-gap: 3rem;
+        row-gap: 1rem;
+    }
+
+    #copy-container {
+        text-align: center;
+        width: 100%;
+    }
+
+    #footer-logo-container {
+        padding: 1rem;
+        justify-content: space-between;
+    }
+
+    .socmed-box {
+        gap: 1rem 0,5rem;
+    }
+
+
+}
+
+/* Large Phones down to 576px */
+@media (max-width: 576px) {
+  
+    /*HERO SECTION*/
+
+         #hero-services-section {
+        padding: 1rem 0;
+     }
+
+     /*SERVICES CARDS SECTION*/
+
+     .service-card {
+        padding: 1rem;
+     }
+
+    /*WEB SERVICES SECTION*/
+
+     #web-services-section h1 {
+        font-size: 2rem;
+     }
+
+    #web-services-section h2 {
+        font-size: 1.5rem;
+     }
+
+    /*FOOTER SECTION*/
+
+    .socmed-box {
+        gap: 0.5rem;
+    }
+
+}
+
+/* Small Phones down to 480px */
+@media (max-width: 480px) {
+        /*NAVIGATION SECTION*/
+
+    .hamburger-logo img {
+        height: 3rem;
+    }
+
+    .hamburger-menu {
+        padding: 0;
+    }
+
+    /*HERO SECTION*/
+
+    #hero-services-section h2 {
+        font-size: 2.5rem;
+     }
+
+     #hero-services-section h4 {
+        font-size: 1.3rem;
+     }
+
+    /*WEB SERVICES SECTION*/
+
+    .web-services-text p {
+        font-size: 1rem;
+    }
+
+    .web-services-img img {
+        height: 35vh;
+    }
+
+
+    /*FOOTER SECTION*/
+
+    #footer-logo-container {
+        justify-content: center;
+    }
+
+    .socmed-box {
+        padding: 1rem;
+    }
+
+    .socmed-box img {
+        height: 1.8rem;
+    }
+}
