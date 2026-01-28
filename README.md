@@ -62,3 +62,44 @@ The website is fully responsive and mobile-friendly, featuring a hamburger navig
 
 ## Folder Structure
 
+WebCerf/
+│
+├── index.html # Home page
+├── services.html # Services page
+├── contact.html # Contact page
+│
+├── styles.css # Global styles
+├── services.css # Services page styles
+├── services-mediaquery.css # Services page responsive styles
+├── contact.css # Contact page styles
+├── contact-mediaquery.css # Contact page responsive styles
+│
+├── services.js # Services page JS
+├── contact.js # Contact page JS
+├── hamburger-nav.js # Hamburger menu JS
+│
+└── assets/ # Images, icons, logos, SVGs
+├── companylogo.jpg
+├── laptop-code-solid-full.svg
+├── paintbrush-solid-full.svg
+├── screwdriver-wrench-solid-full.svg
+├── server-solid-full.svg
+├── searchengin-brands-solid-full.svg
+├── phone-solid-full.svg
+├── envelope-solid-full.svg
+├── map-location-solid-full.svg
+├── facebook-f-brands-solid-full.svg
+├── linkedin-in-brands-solid-full.svg
+├── instagram-brands-solid-full.svg
+└── other images & icons used on pages
+
+
+---
+
+## Installation & Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/WebCerf.git
+
